@@ -24,12 +24,12 @@ function Open() {
         <div className='insideopen2'>
         <div className='opencontent'>
 
-<h3>Customer relationship management</h3>
-<h3 style={{color:"grey"}}>(CMR)</h3>
-<p style={{marginTop:"30px"}}> Is a process in which a business or other organization administers
-     its interactions with customers,
+<h5 style={{color:"black", paddingLeft:"5px"}}>Customer relationship management</h5>
+<h5 style={{color:"grey",paddingLeft:"5px"}}>(CMR)</h5>
+<p style={{marginTop:"15px",fontSize:"10px"}}> Is a process in which a business or other organization administers
+     its interactions with customers,<br/>
      typically using data analysis to study large amounts of information.
-    Its refer to all strategies techniques, tools
+    Its refer to all strategies techniques,<br/> tools
     and technologies usedby enterprises for
     developing,retaining and acquiring customers
 </p>
@@ -39,7 +39,7 @@ function Open() {
 
 </div>
 <div className='openimage'>
-<img  style={{width:"600px",height:"450px" }} src={ilus}/>
+<img  style={{width:"350px",height:"275px" }} src={ilus}/>
 </div>
         </div>
         
